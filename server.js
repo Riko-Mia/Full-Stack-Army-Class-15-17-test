@@ -66,3 +66,26 @@ app.listen(4000, () => {
 })
 */
 
+
+
+/** Project staffing start here*/
+
+
+require('dotenv').config()
+const http = require('http')
+const app = require('./app/app')
+
+
+const server = http.createServer(app)
+// console.log(server)
+// console.log(process.env)
+
+const PORT = process.env.PORT || 4000
+server.listen(PORT, () => {
+    console.log(`Server listing on PORT ${PORT}`)
+})
+
+
+
+
+
