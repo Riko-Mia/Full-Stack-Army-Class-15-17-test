@@ -13,7 +13,8 @@ app.use(require('./routes'))
 app.use(notFoundHandler)
 app.use(errorHandler)
 
-// app.get('/health', (req, res) => {          // this is route
+
+ /**   // app.get('/health', (req, res) => {          // this is route
 //     // throw new Error('Error Occur')
 //     res.status(200).json({message: 'Success'})
 // })
@@ -35,6 +36,7 @@ app.use(errorHandler)
 //     res.status(500).json({message: 'Something went wrong'})
 // })
 
+*/
 
 
 
